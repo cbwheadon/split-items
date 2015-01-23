@@ -5,7 +5,11 @@ module.exports = {
     connect : require('./lib/connect'),
     reader : require('./lib/reader'),
     worker: require('./lib/worker'),
+    messenger: require('./lib/messenger'),
 };
 
-var worker = require('./lib/worker');
-worker.processFiles('tiffs/incoming');
+//var worker = require('./lib/worker');
+//worker.processFiles('tiffs/incoming');
+//
+var messenger = require('./lib/messenger');
+messenger.getSQSMessage();
