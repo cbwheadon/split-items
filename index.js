@@ -8,8 +8,5 @@ module.exports = {
     messenger: require('./lib/messenger'),
 };
 
-//var worker = require('./lib/worker');
-//worker.processFiles('tiffs/incoming');
-//
 var messenger = require('./lib/messenger');
 messenger.getSQSMessage();
