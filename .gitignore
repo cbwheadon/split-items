@@ -3,6 +3,7 @@ logs
 *.log
 
 # Images
+tiffs/
 tiffs
 
 # Runtime data

@@ -2,6 +2,9 @@
 logs
 *.log
 
+# Images
+tiffs
+
 # Runtime data
 pids
 *.pid
