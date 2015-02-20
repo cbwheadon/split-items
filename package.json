@@ -4,22 +4,15 @@
   "description": "Split multi page tiff into items",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
   "author": "Chris Wheadon <chris.wheadon@gmail.com> (http://www.nomoremarking.com)",
   "license": "ISC",
   "devDependencies": {
-    "moment": "^2.9.0",
-    "knox": "^0.9.2",
-    "mongodb": "^1.4.29",
-    "underscore": "^1.7.0"
   },
   "dependencies": {
     "async": "^0.9.0",
     "aws-sdk": "^2.1.7",
-    "gm": "^1.17.0",
-    "knox": "^0.9.2",
     "moment": "^2.9.0",
     "mongodb": "^1.4.29",
     "tmp": "0.0.24",
