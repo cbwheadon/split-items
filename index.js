@@ -11,6 +11,7 @@ module.exports = {
 var messenger = require('./lib/messenger');
 messenger.getSQSMessage();
 
+
 /*
 var reader = require('./lib/reader');
 var script = {qrcode:'ABC', booklet:'H1', _id:'1234'};
